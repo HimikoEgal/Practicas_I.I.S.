@@ -1,14 +1,14 @@
 # Practicas_I.I.S.
 Practicas de la asignatura: Introducción a ingeniería en desarrollo de software.
 
-<h2>:page_with_curl: Practicas I.I.S.</h2>
+## :page_with_curl: Practicas I.I.S.
 
-<h4>Objetivo general:</h4>
-Bienvenido/a al repositorio de <strong>prácticas escolares</strong> de la materia <strong>Introducción a Ingeniería en Desarrollo de Software (I.I.S.)</strong>. Aquí se almacenan los ejercicios realizados a lo largo del curso, organizados de manera clara por práctica y por tema, con código en C.
+### Objetivo general:
+Bienvenido/a al repositorio de **prácticas escolares** de la materia **Introducción a Ingeniería en Desarrollo de Software (I.I.S.)**. Aquí se almacenan los ejercicios realizados a lo largo del curso, organizados de manera clara por práctica y por tema, con código en C.
 
-<h2>📂 Estructura del repositorio</h2>
+## 📂 Estructura del repositorio
 
-<h4>El repositorio está organizado de la siguiente manera:</h4>
+### El repositorio está organizado de la siguiente manera:
 
 ```text
 Practicas/
