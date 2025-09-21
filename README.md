@@ -4,30 +4,27 @@ Practicas de la asignatura: Introducción a ingeniería en desarrollo de softwar
 <h2>:page_with_curl: Practicas I.I.S.</h2>
 
 <h4>Objetivo general:</h4>
-Bienvenido/a al repositorio de **prácticas escolares** de la materia **Introducción a Ingeniería en Desarrollo de Software (I.I.S.)**.
-
-Aquí se almacenan los ejercicios realizados a lo largo del curso, organizados de manera clara por práctica y por tema, con código en C.
+Bienvenido/a al repositorio de **prácticas escolares** de la materia **Introducción a Ingeniería en Desarrollo de Software (I.I.S.)**. Aquí se almacenan los ejercicios realizados a lo largo del curso, organizados de manera clara por práctica y por tema, con código en C.
 
 <h2>📂 Estructura del repositorio</h2>
 
 <h4>El repositorio está organizado de la siguiente manera:</h4>
 
+```text
 Practicas/
 │
 ├─ practica1/
-│ └─ matriz_y_funciones.c
-│
+│   └─ matriz_y_funciones.c
 ├─ practica2/
-│ └─ piedra_papel_tijeras.c
-│
+│   └─ piedra_papel_tijeras.c
 ├─ practica3/
-│ └─ ... (otros ejercicios)
-│
+│   └─ ... (otros ejercicios)
 └─ README.md
 
 - **Practicas/**: Carpeta principal donde se agrupan todas las prácticas.
 - **practicaX/**: Carpeta de cada práctica, donde `X` indica el número de la práctica.
 - **Archivos `.c`**: Código fuente de los ejercicios realizados.
+
 <h2>📝 Contenido de las prácticas</h2>
 
 <h4>Cada práctica puede contener:</h4>
