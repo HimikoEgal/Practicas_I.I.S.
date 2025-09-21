@@ -20,6 +20,7 @@ Practicas/
 ├─ practica3/
 │   └─ ... (otros ejercicios)
 └─ README.md
+```
 
 - **Practicas/**: Carpeta principal donde se agrupan todas las prácticas.
 - **practicaX/**: Carpeta de cada práctica, donde `X` indica el número de la práctica.
