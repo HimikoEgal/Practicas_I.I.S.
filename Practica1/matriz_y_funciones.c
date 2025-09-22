@@ -12,7 +12,7 @@ entero de igual tamaño filas y columnas no mayor de 10.
 #include <stdlib.h>
 #include <time.h>
 
-void operaciones_fun(int tam, int a[tam][tam]); //prototipo de función que realioza las operaciones.
+void operaciones_fun(int tam, int a[tam][tam]); //prototipo de función que realiza las operaciones.
 
 int main(){
 	int tam_array; //tamaño del arreglo.
@@ -20,7 +20,9 @@ int main(){
     
     //Pedir tamaño de arreglo al usuario:
     do{
-    system("clear"); //limpiamos pantalla por si el usuario se equivoca. 
+    system("clear"); //limpiamos pantalla por si el usuario se equivoca.
+    printf("\tMatriz Y Funciones | Chavez Jimenez | I.I.S\n");
+    printf("\t============================================\n\n"); 
     printf("Ingresar un número entre 1 y 10: \n");scanf("%i", &tam_array); 
     //Validamos que el número esté entre 1 y 10.
     if(tam_array<1 || tam_array>10){
