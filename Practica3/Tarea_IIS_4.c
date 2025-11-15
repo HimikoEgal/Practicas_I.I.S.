@@ -29,9 +29,9 @@ int main() {
     //Declaración de alumnos por defecto en el sistema.    
     int cant = 3;
     struct alumnos *alumno = malloc(cant * sizeof(struct alumnos));
-    strcpy(alumno[0].nombre, "Himiko"); alumno[0].tareas = 8; alumno[0].promedio = 8.0;
-    strcpy(alumno[1].nombre, "Alice");  alumno[1].tareas = 10; alumno[1].promedio = 10.0;
-    strcpy(alumno[2].nombre, "Adel");   alumno[2].tareas = 7; alumno[2].promedio = 7.0;
+    strcpy(alumno[0].nombre, "Himiko"); alumno[0].tareas = 18; alumno[0].promedio = 9.0;
+    strcpy(alumno[1].nombre, "Alice");  alumno[1].tareas = 10; alumno[1].promedio = 5.0;
+    strcpy(alumno[2].nombre, "Adel");   alumno[2].tareas = 7; alumno[2].promedio = 3.5;
     
     //Llamado a la funcion de menu principal.
     main_menu(&alumno, &cant);
@@ -85,7 +85,8 @@ void altas_bajas(struct alumnos **alumno, int *cant) {
             scanf("%s", (*alumno)[(*cant)-1].nombre);
             printf("Ingresar tareas: \n");
             scanf("%d", &(*alumno)[(*cant)-1].tareas);
-            (*alumno)[(*cant)-1].promedio = (*alumno)[(*cant)-1].tareas;
+            (*alumno)[(*cant)-1].promedio = (*alumno)[(*cant)-1].tareas / 20.0 * 10.0; //Calculamos el promedio en base a las tareas realizadas, si se desea cambiar el total de tareas modificar el valor 20.0.
+            printf("Alumno dado de alta correctamente.\n");
             break;
 
         case 2:
